@@ -13,6 +13,18 @@
         android:layout_centerInParent="true"
         android:src="@drawable/ball"/>
 
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="click"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:typeface="serif"/>
+
+
 
 
 
