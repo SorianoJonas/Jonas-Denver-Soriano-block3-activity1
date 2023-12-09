@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         tv_text = findViewById(R.id.tv_text)
 
         tv_text.setOnClickListener{
-            tv_text.text = phrases[random.nex]
+            tv_text.text = phrases[random.nextInt(phrases.size)]
 
         }
 
